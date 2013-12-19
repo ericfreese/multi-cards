@@ -1,0 +1,13 @@
+{
+  "name": "tweenjs",
+  "homepage": "https://github.com/sole/tween.js",
+  "_release": "r12",
+  "_resolution": {
+    "type": "tag",
+    "tag": "r12",
+    "commit": "5e02f736a82f7257e20a188692375d90de1f371f"
+  },
+  "_source": "git://github.com/sole/tween.js.git",
+  "_target": "r12",
+  "_originalSource": "tweenjs"
+}

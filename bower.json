@@ -1,0 +1,16 @@
+{
+  "name": "multi-cards",
+  "version": "0.0.0",
+  "authors": [
+    "Eric Freese <ericdfreese@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*"
+  ],
+  "devDependencies": {
+    "threejs": "r64",
+    "tweenjs": "r12"
+  }
+}

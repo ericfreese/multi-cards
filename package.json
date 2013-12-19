@@ -1,0 +1,35 @@
+{
+  "name": "multi-cards",
+  "version": "0.0.0",
+  "description": "Multiplayer card games",
+  "author": "Eric Freese <ericdfreese@gmail.com>",
+  "license": "MIT",
+  "private": "true",
+  "dependencies": {
+    "express": "~3.4.7",
+    "jade": "~0.35.0",
+    "socket.io": "0.9.x",
+    "lodash": "~2.4.0",
+    "pubsub-js": "~1.4.0",
+    "colors": "~0.6.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "load-grunt-tasks": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-nodemon": "~0.1.2",
+    "grunt-concurrent": "~0.4.2",
+    "grunt-browserify": "~1.3.0",
+    "browserify": "~3.2.2",
+    "browserify-shim": "~3.0.5"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "./src/client/vendor/threejs/build/three.js": "THREE",
+    "./src/client/vendor/tweenjs/build/tween.min.js": "TWEEN"
+  }
+}

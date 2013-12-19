@@ -1,0 +1,3 @@
+(function() {
+  require('./app').start();
+})();
